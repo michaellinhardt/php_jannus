@@ -1,0 +1,59 @@
+/*
+ * Cadre gauche
+ */
+
+#_MainContent { width: 90% ; }
+
+._Cadre {
+	display: block ;
+	width: 252px ;
+	height: 630px ;
+	margin: 15px auto 0 auto ;
+	background: url(../img/pages/lesplus/cadre.png) no-repeat ;
+	line-height: 35px ;
+	text-align: center ;
+	font-size: 15px ;
+}
+
+._Cadre H4 { margin-bottom: 0 ; }
+
+._Cadre IMG { width: 195px ; margin: 0 ; padding: 0 ; }
+
+._Cadre P {
+	line-height: 15px ;
+	text-align: left ;
+	padding: 5px 15px 25px 15px ;
+	font-size: 12px ;
+	margin: 0 ;
+}
+
+/*
+ * Titre cadre droit
+ */
+H3 { 
+	padding-left: 20px ;
+	position: relative ;
+	font-size: 1.1em ;
+	margin: 25px 0 0 0 ;
+}
+
+H3 IMG {
+	display: block ; 
+	position: absolute ;
+	left: 0 ;
+	top: 2px ;
+}
+
+._MainContentLeft66 {
+	padding-left: 20px ;
+	position: relative ;
+}
+._MainContentLeft66 ._HrVertical {
+	position: absolute ;
+	height: 500px ;
+	width: 2px ;
+	left: 0 ;
+	top: 75px ;
+}
+
+._MainContentLeft66 P { margin-left: 20px ; }

@@ -1,0 +1,355 @@
+/*
+ * Propriété par defaut
+ */
+body, img, a, div, form, table { margin: 0; padding: 0; }
+img { border: none; }
+
+sup { font-size: 9px ; }
+
+a { color: grey ;text-decoration: none ; }
+a:hover { color: black; }
+
+body{
+	color: #696969 ;
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 15px ;
+}
+
+._Clear { visibility: hidden ; clear: both ; }
+
+/*
+ * Layout
+ */
+#_HeaderContent {
+	margin: 0 auto 0 auto ;
+	padding: 0 ;
+	position: relative ;
+	display: block ;
+	width: 910px;
+	border: none ;
+	height: 155px ;
+	clear: both;
+}
+#_CenterContent {
+	margin: 0 auto 0 auto ;
+	padding: 0 ;
+	position: relative ;
+	width: 902px;
+	border: none ;
+	clear: both;
+}
+#_FooterContent {
+	margin: 15px auto 0 auto ;
+	padding: 35px 0 0 0 ;
+	position: relative ;
+	width: 750px;
+	border: none;
+	clear: both;
+}
+/*
+ * Effet sur text
+ */
+._HighLineViolet {
+	color: #800080 ;
+}
+/*
+ * Lien "Mon compte"
+ */
+#_LinkBoClient {
+	display: block ;
+	width: 128px ;
+	height: 64px ;
+	position: absolute ;
+	right: 20px;
+	top: -20px ;
+	background: url(../img/layout/moncompte.png) no-repeat ;
+	padding: 5px 0 0 0 ;
+	text-decoration: none ;
+	color: #FFF ;
+	font-weight: bold ;
+	text-align: center ;
+}
+/*
+ * Menu header
+ */
+#_HeaderMenu {
+	display: block ;
+	position: absolute ;
+	bottom: 0 ;
+	left: 0 ;
+	height: 60px ;
+	width: 100% ;
+	background: url(../img/layout/menu.png) no-repeat ;
+}
+#_HeaderMenu UL LI A {
+	color: #FFF ;
+	font-size: 15px ;
+	font-weight: bold ;
+}
+#_HeaderMenu UL LI A:HOVER {
+	color: #800080 ;
+}
+/* Positionnement exacte du menu déroulant sur le background */
+/* Effet image incruster au menu */
+#_MenuIncrustation {
+	position: absolute ;
+	display: block ;
+	width: 905px ;
+	background: url(../img/layout/menueffet.png) no-repeat 2px 0 ;
+	top: -26px ;
+	z-index: -1 ;
+	left: 0 ;
+}
+#_MenuIncrustation IMG {
+	padding: 17px 0 0 22px ;
+}
+#_MenuIncrustationEnd {
+	display: block ;
+	background: url(../img/layout/ombre.png) no-repeat bottom ;
+	margin-left: 5px ;
+}
+/*
+ * Div collé au menu se trouvant dans la div #
+ */
+#_MainContent {
+	display: block ;
+	margin: -5px auto 0 auto ;
+}
+/*
+ * Menu Footer
+ */
+#_FooterMenu {
+	margin: 0 ; padding: 0 ;
+	display: block;
+	position: relative;
+	width: 100%;
+	line-height: 10px ;
+	margin-bottom: 10px ;
+	text-align: justify;
+}
+#_FooterMenu TR, #_FooterMenu TD, #_FooterMenu TABLE { margin: 0 ; padding: 0 ; }
+#_FooterMenu TABLE { width: 100% ; text-align: center ;	}
+#_FooterMenu TD { border-right: 1px solid grey ; width: 55px ; }
+#_FooterMenu TD.last { border-right: none ; }
+#_FooterMenu A {
+	font-size: .7em;
+	color: black ;
+	text-decoration: none ;
+	color: grey ;
+}
+#_FooterMenu A:hover { color: black ; }
+#_FooterText P { margin: 0 ; padding: 0 ; }
+/*
+ * Footer Text
+ */
+#_FooterText {
+	margin: 5px auto 0 auto ;
+	display: block ;
+	position: relative ;
+	width: 95% ;
+	font-family: verdana ;
+	font-size: .6em;
+	color: grey ;
+	font-style: italic ;
+}
+
+/*
+ * Affichage principale divisé en block
+ * Block gauche 66%
+ * Block droite 33%
+ */
+
+#_MainContentLeft66 {
+	display: block ;
+	float: left ;
+	width: 66% ;
+}
+
+#_MainContentRight33 {
+	display: block ;
+	float: right ;
+	width: 33% ;
+}
+
+/*
+ * Bouton vert
+ */
+._GreenBtn {
+	display: block ;
+	width: 128px;
+	height: 33px ;
+	line-height: 33px ;
+	background: url(../img/layout/btnvert.png) no-repeat ;
+	color: #FFF ;
+	font-weight: bold ;
+	text-decoration: none ;
+	font-size: 15px ;
+	text-align: center ;
+}
+
+/*
+ * Contact par téléphone
+ */
+#_ContactTel {
+	padding: 10px 0 0 75px ;
+	line-height: 22px ;
+	background: url(../img/layout/tel.jpg) no-repeat 15px 25px ;
+}
+#_ContactTel P {
+	margin: 0 ; padding: 0 ;
+	text-align: left ;
+}
+#_ContactTel SPAN {
+	font-size: .7em ;
+}
+
+/*
+ * Contact par mail
+ */
+#_ContactMail {
+	padding: 15px 0 0 75px ;
+	line-height: 22px ;
+	background: url(../img/layout/mail.jpg) no-repeat 15px 15px ;
+}
+#_ContactTel P {
+	margin: 0 ; padding: 0 ;
+	text-align: left ;
+}
+
+#_ContactMail P { margin: 0 ; }
+
+/*
+ * Liste avec Plus
+ */
+._ListPlus {
+	list-style: none ;
+	line-height: 25px ;
+	margin: 0 ;
+}
+._ListPlus LI {
+	background: url(../img/layout/plus.png) no-repeat 0 3px ;
+	padding: 0 0 0 25px ;
+	margin: 0 20px 0 -20px  ;
+}
+._ListPlus P {
+	line-height: 20px ;
+}
+
+/*
+ * Form Error (orange)
+ * POUR UTILISER CETTE BULLE IL FAUT LUI AJOUTER UNE CLASS ET PRESISER LE TOP / LEFT POSITION
+ EXEMPLE:
+ 
+#formErrorNom {
+top: 150px ;
+left: 150px ;
+}
+ 
+<div style="opacity: 0.87;" class="formError formErrorNom">
+	<div class="formErrorContent">* Ce champs est requis<br></div>
+	<div class="formErrorArrow">
+		<div class="line10"><!-- --></div>
+		<div class="line9"><!-- --></div>
+		<div class="line8"><!-- --></div>
+		<div class="line7"><!-- --></div>
+		<div class="line6"><!-- --></div>
+		<div class="line5"><!-- --></div>
+		<div class="line4"><!-- --></div>
+		<div class="line3"><!-- --></div>
+		<div class="line2"><!-- --></div>
+		<div class="line1"><!-- --></div>
+	</div>
+</div>
+ 
+ */
+
+.formError {
+    display: block;
+    padding-bottom: 13px;
+    position: absolute;
+    z-index: 5000;
+    opacity: 0.87;
+}
+.formError .formErrorContent {
+    -moz-border-radius: 6px 6px 6px 6px;
+    -moz-box-shadow: 0 0 6px #000000;
+    background: none repeat scroll 0 0 #F8B04C;
+    border: 2px solid #DDDDDD;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 11px;
+    padding: 4px 10px;
+    width: 150px;
+}
+.formError .formErrorArrow {
+    bottom: 0;
+    height: 15px;
+    left: 20px;
+    position: absolute;
+    width: 15px;
+    z-index: 5001;
+}
+.formError .formErrorArrowBottom {
+    margin: -6px;
+    top: 0;
+}
+.formError .formErrorArrow div {
+    -moz-box-shadow: 0 2px 3px #444444;
+    background: none repeat scroll 0 0 #F8B04C;
+    border-left: 2px solid #DDDDDD;
+    border-right: 2px solid #DDDDDD;
+    display: block;
+    font-size: 0;
+    height: 1px;
+    line-height: 0;
+    margin: 0 auto;
+}
+.formError .formErrorArrowBottom div {
+    -moz-box-shadow: none;
+}
+.greenPopup .formErrorArrow div {
+    background: none repeat scroll 0 0 #33BE40;
+}
+.blackPopup .formErrorArrow div {
+    background: none repeat scroll 0 0 #393939;
+    color: #FFFFFF;
+}
+.formError .formErrorArrow .line10 {
+    border: medium none;
+    width: 15px;
+}
+.formError .formErrorArrow .line9 {
+    border: medium none;
+    width: 13px;
+}
+.formError .formErrorArrow .line8 {
+    width: 11px;
+}
+.formError .formErrorArrow .line7 {
+    width: 9px;
+}
+.formError .formErrorArrow .line6 {
+    width: 7px;
+}
+.formError .formErrorArrow .line5 {
+    width: 5px;
+}
+.formError .formErrorArrow .line4 {
+    width: 3px;
+}
+.formError .formErrorArrow .line3 {
+    border-bottom: 0 solid #DDDDDD;
+    border-left: 2px solid #DDDDDD;
+    border-right: 2px solid #DDDDDD;
+    width: 1px;
+}
+.formError .formErrorArrow .line2 {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    width: 3px;
+}
+.formError .formErrorArrow .line1 {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    width: 1px;
+}

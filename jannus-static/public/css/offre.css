@@ -1,0 +1,62 @@
+/*
+ * Titre
+ */
+H3 { font-size: 1.1em ; margin-bottom: 36px ; }
+
+#_MainContent { width: 90% ; }
+
+/*
+ * Cadre droite RESIDENT
+ */
+
+#_Cadre {
+	display: block ;
+	width: 248px ;
+	height: 364px ;
+	margin: 15px auto 0 auto ;
+	background: url(../img/pages/offre/resident/cadre.png) no-repeat ;
+}
+
+#_CadreText1 {
+	margin: 0 ; padding: 15px ;
+	text-align: center ;
+	font-size: 15px ;
+	line-height: 20px ;
+}
+
+._GreenBtn {
+	margin: 0 auto 0 auto ;
+}
+
+#_Resiliez {
+	text-align: center ;
+}
+
+#_Resiliez SPAN {
+	font-size: .7em ;
+}
+
+/*
+ * Cadre gauche RESIDENT
+ */
+
+._MainContentLeft66 {
+	background: url(../img/layout/hrvertical.png) no-repeat 0 30px ;
+	padding-left: 20px ;
+}
+
+/*
+ * Cadre gauche GESTIONNAIRE
+ */
+
+._ListPlus P { margin: 0 0 35px 0 ; }
+
+._Cadre {
+	display: block ;
+	width: 251px ;
+	height: 246px ;
+	margin: 15px auto 0 auto ;
+	background: url(../img/pages/offre/gestionnaire/cadre.png) no-repeat ;
+}
+#_Client { line-height: 35px ; text-align: center ; }
+#_Client IMG { margin: 0 auto 0 auto ; }

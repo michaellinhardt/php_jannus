@@ -1,0 +1,73 @@
+/*
+ * Accordeon
+ */
+
+#_MainContent { width: 97% ; }
+#_Accordeon H3 A {
+	color: grey ;
+	font-size: 14px ;
+	padding-left: 25px ;
+	position: relative ;
+	background: url(../img/layout/boule.png) no-repeat 0 9px ;
+	color: #800080 ;
+}
+
+#_Accordeon IMG { position: absolute ; top: 9px ; left: 0 ; }
+
+#_Accordeon P { font-size: 13px ; margin: -15px 0 0 -15px ; }
+
+#_Accordeon * { background: none ; border: none ; }
+
+/*
+ * Cadre Defaut
+ */
+
+H4 { text-align: center ; padding-top: 15px ; margin: 0 0 8px 0 ; }
+
+._ListPlus {
+	font-size: 12px ;
+	margin: 0 ;
+	padding: 0 0 0 35px ;
+}
+
+._ListPlus LI { margin: 0 ; padding: 0 ; line-height: 15px ; }
+
+/*
+ * Cadre Contact
+ */
+#_Contact {
+	display: block ;
+	margin: 15px auto 0 auto ;
+	width: 251px ;
+	height: 431px ;
+	background: url(../img/pages/faq/cadre1.png) no-repeat ;
+}
+
+#_CadreText1 {
+	margin: 0 ; padding: 15px ;
+	text-align: center ;
+	font-size: 15px ;
+	line-height: 20px ;
+}
+
+._GreenBtn {
+	margin: 0 auto 0 auto ;
+}
+
+/*
+ * Cadre téléchargement
+ */
+
+#_Telechargement {
+	display: block ;
+	margin: 5px auto 0 auto ;
+	width: 252px ;
+	height: 147px ;
+	background: url(../img/pages/presse/cadre3.png) no-repeat ;
+}
+
+#_Telechargement ._ListPlus LI {
+	list-style: none ;
+	padding-left: 35px ;
+	background: url(../img/layout/pdf.jpg) no-repeat 0 3px ;
+}

@@ -1,0 +1,75 @@
+/*
+ * Accordeon
+ */
+
+#_MainContent { width: 97% ; }
+
+#_Accordeon H3 A {
+	color: grey ;
+	font-size: 13px ;
+	padding-left: 95px ;
+	position: relative ;
+	background: url(../img/layout/hrhorizontal.png) no-repeat ;
+	background-position: bottom;
+}
+
+#_Accordeon IMG { position: absolute ; top: 0px ; left: 5px ; }
+
+#_Accordeon P { font-size: 12px ; }
+
+#_Accordeon * { background: none ; border: none ; }
+
+/*
+ * Cadre Defaut
+ */
+
+H4 { text-align: center ; padding-top: 15px ; margin: 0 0 8px 0 ; }
+
+._ListPlus {
+	font-size: 12px ;
+	margin: 0 ;
+	padding: 0 0 0 35px ;
+}
+
+._ListPlus LI { margin: 0 ; padding: 0 ; line-height: 15px ; }
+
+/*
+ * Cadre Chiffres CLés
+ */
+#_Chiffres {
+	display: block ;
+	margin: 15px auto 0 auto ;
+	width: 252px ;
+	height: 253px ;
+	background: url(../img/pages/presse/cadre1.png) no-repeat ;
+}
+
+/*
+ * Cadre Iconographie
+ */
+
+#_Iconographie {
+	display: block ;
+	margin: -25px auto 0 auto ;
+	width: 252px ;
+	height: 118px ;
+	background: url(../img/pages/presse/cadre2.png) no-repeat ;
+}
+
+/*
+ * Cadre téléchargement
+ */
+
+#_Telechargement {
+	display: block ;
+	margin: 5px auto 0 auto ;
+	width: 252px ;
+	height: 147px ;
+	background: url(../img/pages/presse/cadre3.png) no-repeat ;
+}
+
+#_Telechargement ._ListPlus LI {
+	list-style: none ;
+	padding-left: 35px ;
+	background: url(../img/layout/pdf.jpg) no-repeat 0 3px ;
+}

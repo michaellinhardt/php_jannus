@@ -1,0 +1,64 @@
+#_MainContent { width: 97% ; }
+
+#_Operatrice {
+	margin: 0 auto 0 auto ;
+	text-align: right ;
+}
+#_Operatrice IMG {
+	width: 220px ;	
+}
+
+/*
+ * Formulaire
+ */
+
+INPUT {
+	border: 1px solid #BCBCBC ;
+}
+
+TEXTAREA {
+	border: 1px solid #BCBCBC;
+    height: 250px;
+    padding: 10px;
+    width: 570px;
+}
+
+DL {
+	position: relative ;
+	width: 100% ;
+	clear: both ;
+	line-height: 35px ;
+}
+
+DD {
+	float: left ;
+}
+
+DT {
+	float: right ;
+}
+
+#_SendFormBtn {
+	float: right ;
+}
+
+/*
+ * Form Error
+ */
+.formError { left: 560px ; visibility: hidden ; }
+
+.formErrorCivilite { top: 115px ; }
+.formErrorNom { top: 150px ; }
+.formErrorPrenom { top: 185px ; }
+.formErrorMail { top: 305px ; }
+.formErrorMobile { top: 340px ; }
+.formErrorMotif { top: 425px ; }
+.formErrorMessage { top: 490px ; }
+
+/*
+ * Ajax
+ */
+/*
+ * Propriété des fenetre ajax
+ */
+#_ajaxLoading,#_ajaxError { display: none ; }

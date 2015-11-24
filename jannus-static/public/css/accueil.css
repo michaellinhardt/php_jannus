@@ -1,0 +1,115 @@
+/*
+ * Layout Cadre
+ */
+._CadreLayout {
+	display: block ;
+	position: relative ;
+	margin: 0 5px 0 7px ;
+	float: left ;
+	width: 258px;
+	height: 237px ;
+	background: url(../img/pages/accueil/cadre1.png) no-repeat ;
+	line-height: 20px ;
+}
+._CadreLayout A {
+	position: absolute ;
+	bottom: -10px ;
+	left: 60px ;
+}
+._OneColone {
+	margin-left: 45px ;
+}
+/*
+ * Cadre Notre Offre
+ */
+#_CadreOffre ._Titre {
+	position: absolute ;
+	left: 60px ;
+	top: -10px ;
+}
+#_CadreOffre P {
+	text-align: center ;
+	padding: 20px ;
+}
+/*
+ * Cadre 5plus
+ */
+#_Cadre5plus ._Titre {
+	position: absolute ;
+	left: 78px ;
+	top: -18px ;
+}
+#_Cadre5plus UL {
+	margin: 35px 0 0 -50px ;
+}
+#_Cadre5plus UL LI {
+	list-style: none ;
+	margin: 9px 0 9px 0 ;
+	padding: 0 0 0 40px ;
+	background: url(../img/layout/plus.png) 15px 0 no-repeat ;
+}
+/*
+ * Cadre Join
+ */
+#_CadreJoin ._Titre {
+	position: absolute ;
+	left: 60px ;
+	top: -10px ;
+}
+#_CadreJoin P {
+	text-align: center ;
+	padding: 0 20px 0 20px ;
+}
+#_CadreJoin A {
+	top: 125px ;
+}
+
+#_Resiliez {
+	text-align: center ;
+}
+
+#_Resiliez SPAN {
+	font-size: .7em ;
+}
+
+/*
+ * Bulle incruster dans l'image top
+ */
+#_MenuIncrustationBulle {
+	position: absolute ;
+	display: block ;
+	width: 300px ;
+	height: 362px ;
+	background: url(../img/pages/accueil/cadre2.png) no-repeat ;
+	top: 15px ;
+	right: 0px ;
+	z-index: 1 ;
+	color: #7F017F ;
+	letter-spacing: 0px ;
+}
+._BulleTitre {
+	font-size: 19px;
+	font-weight: bold ;
+	margin: 10px 0 0 45px ;
+}
+._BulleSousTitre {
+	font-size: 18px ;
+	text-align: center ;
+	margin: 5px 0 10px 0 ;
+}
+._BulletTarif {
+	margin: 7px 0 7px 69px ;
+}
+._BulleList {
+	margin: 0 ; padding: 10px 0 0 0 ;
+	line-height: 25px ;
+	list-style: none ;
+}
+._BulleList LI {
+	margin: 0 ; padding: 0 0 0 33px ;
+	background: url(../img/layout/ok.png) no-repeat 10px 5px ;
+	font-size: 13px ;
+	color: grey ;
+	letter-spacing: 0 ;
+	font-weight: bold ;
+}

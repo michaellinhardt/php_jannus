@@ -1,0 +1,3 @@
+<?php
+$IndexLang = array(
+);
