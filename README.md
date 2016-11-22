@@ -5,8 +5,3 @@
   - Build an internal web application to manage & handle all data. Including payment api. Managing ldap(distant connexion dispatcher database) <- php() -> (our database)mysql. Using my personnal mvc implementation inspired from zend framework. Build tools for client support. And more..
   - Client backoffice.. basically a free like backoffice with possibility to suscribe for service like antivirus, phone suscription (ovh..) and view account information.
   - Showcase site for promotionnal purpose.
-
-## About
-Outsourcing connexion & material installation/maintenance was to expensive comparing to the benefits. Plus the relationnal with clients was bad according to vicious payment management. Ofc student speack each others.. 
-
-Anyway it was a really instructionnal job and i enjoyed a lot to think & code it !
